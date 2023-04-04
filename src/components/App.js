@@ -2,13 +2,14 @@ import React from 'react'
 import '../styles/App.css';
 import Banner from './Banner';
 import Caroussel from './Caroussel';
-import Produits from './Produits';
+import ProductItem from './ProductItem';
+
 function App() {
   return (
     <div className="App">
       <Banner/>
       <Caroussel/>
-      <Produits/>
+      <ProductItem/>
     </div>
   );
 }
