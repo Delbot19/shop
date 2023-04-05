@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8c4d285714d5e6361e3a",
-    "url": "/shop/static/css/main.cda739e2.chunk.css"
+    "revision": "5ab695c57005dac70fd6",
+    "url": "/shop/static/css/main.982c3eab.chunk.css"
   },
   {
-    "revision": "8c4d285714d5e6361e3a",
-    "url": "/shop/static/js/main.8c4d2857.chunk.js"
+    "revision": "5ab695c57005dac70fd6",
+    "url": "/shop/static/js/main.5ab695c5.chunk.js"
   },
   {
-    "revision": "adb2852fae2b928deb4c",
-    "url": "/shop/static/js/1.adb2852f.chunk.js"
+    "revision": "cf042e081f8a87233510",
+    "url": "/shop/static/js/1.cf042e08.chunk.js"
   },
   {
     "revision": "a91abfb36e87675f48a7",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/shop/static/js/2.a91abfb3.chunk.js"
   },
   {
-    "revision": "a8c16cf6bd26d073e778",
-    "url": "/shop/static/js/runtime~main.a8c16cf6.js"
+    "revision": "83933dc9dfc51c7b5fdb",
+    "url": "/shop/static/js/runtime~main.83933dc9.js"
   },
   {
     "revision": "d316eda36a6df2c4281ff6e9b4cb949a",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/shop/static/media/Special Item1.815202e7.jpg"
   },
   {
-    "revision": "179ab96c288214c10a728977a0464f8e",
+    "revision": "36a04ca2a2c9bf8c8b924a76a8d19e70",
     "url": "/shop/index.html"
   }
 ];
