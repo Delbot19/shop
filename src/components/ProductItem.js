@@ -3,7 +3,10 @@ import '../styles/ProductItem.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-function ProductItem({ id,sale,name,price,reduction,star,cover}) {
+function ProductItem({ id,sale,name,price,reduction,star,cover,compteur,setCompteur}) {
+  function increment() {
+    setCompteur(compteur+1)
+  }
   let range=[1,2,3,4,5]
   return (
     <li key={id} className='product-item'>
@@ -22,7 +25,8 @@ function ProductItem({ id,sale,name,price,reduction,star,cover}) {
             (reduction===0)? <span>  ${price}.00</span>: <span><span className='barre'> ${price}.00 </span> - ${reduction}.00 </span>
           }
       </div>
-      <button className='button-bas'>Add to cart</button>
+      <button onClick={increment} className='button-bas'>Add to cart</button>
+      
     </li>
   )
 }

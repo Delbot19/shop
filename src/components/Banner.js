@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/Banner.css'
+function Banner({compteur,setCompteur}) {
 
-function Banner() {
-  let compte=0;
   return (
     <nav>
       <div className='left'>
@@ -13,7 +12,7 @@ function Banner() {
           <li>Shop</li>
         </ul>
       </div>
-      <button className='button-haut'>Cart <span className='compteur'>{compte}</span></button>
+      <button className='button-haut'>Cart <span className='compteur'>{compteur}</span></button>
     </nav>
   )
 }

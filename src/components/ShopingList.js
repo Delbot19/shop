@@ -2,7 +2,7 @@ import React from 'react'
 import ProductItem from './ProductItem'
 import '../styles/ShopingList.css'
 import { ListeProduit } from '../datas/ListeProduits'
-function ShopingList() {
+function ShopingList({compteur,setCompteur}) {
     return (
         <div className='shoping-list'>
             <ul className='produit-list'>
@@ -17,6 +17,8 @@ function ShopingList() {
                                 reduction={reduction}
                                 star={star}
                                 cover={cover}
+                                compteur={compteur}
+                                setCompteur={setCompteur}
                             />
                         </div>
                     ))
