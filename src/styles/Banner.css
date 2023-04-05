@@ -26,7 +26,7 @@ button:hover{
     background-color: black;
     color: white;
 }
-span{
+.compteur{
     color: white;
     border-radius: 100%;
     background-color: black;

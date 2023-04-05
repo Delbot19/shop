@@ -13,7 +13,7 @@ function Banner() {
           <li>Shop</li>
         </ul>
       </div>
-      <button>Cart <span>{compte}</span></button>
+      <button>Cart <span className='compteur'>{compte}</span></button>
     </nav>
   )
 }

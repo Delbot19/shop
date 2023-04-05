@@ -1,0 +1,27 @@
+.product-item{
+    height: 400px;
+	width: 265px;
+    border: 1px solid black;
+	border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+
+}
+.item-cover{
+	border-radius: 10px;
+    height: 170px;
+	width: 265px;
+}
+.titre{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(20, 19, 19, 0.918);
+}
+.star{
+    text-align: center;
+    margin-top: 10px;
+}
