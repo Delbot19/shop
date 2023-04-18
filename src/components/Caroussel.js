@@ -13,19 +13,20 @@ function Caroussel() {
   return (
     <Swiper autoplay={{ delay: 3000 }} className="caroussel">
       <SwiperSlide className='slide'>
-          <div>
-              <p className='text1'>Shop in style</p>
-              <p className='text2'>You can explore ans shop many differnt collection
-                  from various jackets here.</p>
-              <img src={mannequin} alt="mannequin" className="mannequin"/>
+        <div className='text'>
+          <p className='text1'>Shop in style</p>
+          <p className='text2'>You can explore ans shop many differnt collection
+            from various jackets here.</p>
+          <img src={mannequin} alt="mannequin" className="mannequin" />
 
-          </div>
+        </div>
 
 
       </SwiperSlide>
       <SwiperSlide className='slide'>
         <p className='text1'>Shop in style</p>
         <p className='text2'>With this shop hompeage template</p>
+        <img src={mannequin} alt="mannequin" className="mannequin" />
       </SwiperSlide>
     </Swiper>
   )
